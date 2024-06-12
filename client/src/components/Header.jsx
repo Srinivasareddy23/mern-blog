@@ -27,17 +27,17 @@ function Header() {
               Sign In
             </Button>
           </Link>  
-          <Navbar.Toggle />
+          <Navbar.Toggle /> 
         </div>
         <Navbar.Collapse>
             <Navbar.Link active={path === '/'} as={'div'}>
-               <Link to='/'>Home</Link>
+               <Link to='/' className='block md:inline'>Home</Link>
             </Navbar.Link>
             <Navbar.Link active={path === '/about'} as={'div'}>
-               <Link to='/about'>About</Link>
+               <Link to='/about' className='block md:inline'>About</Link>
             </Navbar.Link>
             <Navbar.Link active={path === '/projects'} as={'div'}>
-               <Link to='/projects'>Projects</Link>
+               <Link to='/projects' className='block md:inline'>Projects</Link>
             </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
