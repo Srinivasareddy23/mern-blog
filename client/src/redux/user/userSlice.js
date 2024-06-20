@@ -28,6 +28,7 @@ const userSlice = createSlice({
 
 export const { signInStart, signInSuccess, signInFailure } = userSlice.actions;
 
+export const selectUser = (state) => state.user.currentUser;
 export const selectLoading = (state) => state.user.loading;
 export const selectError = (state) => state.user.error;
 
