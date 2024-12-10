@@ -4,7 +4,6 @@ import React from "react";
 function Home() {
   return (
     <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 min-h-screen text-white">
-      {/* Hero Section */}
       <section className="text-center py-12 px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Discover, Learn, and Share
@@ -20,13 +19,11 @@ function Home() {
         </a>
       </section>
 
-      {/* Featured Posts Section */}
       <section className=" px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Featured Posts
         </h2>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* First Featured Post */}
           <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden">
             <img
               src="/Images/reacthooks.jpeg"
@@ -47,7 +44,6 @@ function Home() {
             </div>
           </div>
 
-          {/* Second Featured Post */}
           <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden">
             <img
               src="/Images/oauth.jpeg"
@@ -70,7 +66,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Latest Posts Section */}
       <section id="latest-posts" className="py-16 px-4 bg-gray-100 text-black">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Latest Posts
@@ -82,7 +77,7 @@ function Home() {
               className="bg-white rounded-lg shadow-lg overflow-hidden"
             >
               <img
-                src="https://via.placeholder.com/400x300"
+                src="/Images/images.jpeg"
                 alt="Post Thumbnail"
                 className="w-full h-48 object-cover"
               />
